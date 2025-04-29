@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    background-color: #C50441;
+}
+
+.nav-item {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.phan1-nav ul li {
+    border-right: 1px solid white;
+    padding: 15px 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+li:hover {
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.phan3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 235px;
+    margin-right: 15px;
+}
+
+.menu-header {
+    background-color: #C50441;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    border: 1px solid #333;
+}
+
+.menu-header img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.banh {
+    list-style: none;
+}
+
+.banh li {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    background: white;
+}
+
+.banh li img {
+    margin-right: 10px;
+    width: 15px;
+}
+
+.sidebar-image img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content-area {
+    flex: 1;
+}
+
+.banh {
+    display: flex;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.motabanh p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.footer {
+    background-color: #C50441;
+    color: white;
+    padding-bottom: 15px;
+}
+
+
+.list-title {
+    border: 1px solid black;
+    gap: 0 5px;
+    align-items: center;
+    display: flex;
+    width: 30%;
+    background-color: rgba(197, 4, 65, 0.772);
+    color: white;
+}
+.phan3-siderbar{
+    padding-right: 20px; 
+}
+.banh li {
+    font-weight: bold;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banh {
+    width: auto;
+    list-style: none;
+}
+.imghuman{
+    width: 302px;
+    padding-left: 20px;
+}
+
+.anhbanh{
+    width: 30%;
+   
+}
+
+.list-total{
+    padding-top: 20px ;
+    padding-left: 20px;
+ }
+
+.phan4{
+    width: 70%;  
+}
+.phan4-item {
+    display: flex;       /* Hiển thị hình ảnh và thông tin ngang hàng */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
